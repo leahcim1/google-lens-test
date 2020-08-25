@@ -3,6 +3,39 @@
   <head>
     <meta charset="UTF-8">
     <title>Google Lens Test Page</title>
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.googleapis.com/",
+    "@type": "ARArtifact",
+    "arTarget": {
+      "@type": "ARImageTarget",
+      "name" : "Meet Pixel 4a",
+      "image": "https://example.com/images/glowandcopy.jpg",
+      "width": 1.3
+    },
+    "arContent": {
+      "@type": "ARNode",
+      "arInitialAxisOrientation": "ARYAxisNormal",
+      "name": "Full of helpful",
+      "image": "https://example.com/images/content_image.png",
+      "url": "https://store.google.com/product/pixel_4a",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google Pixel 4a",
+        "logo": "https://example.com/images/publisher_logo.png"
+      },
+      "associatedMedia": {
+        "@type": "3DModel",
+        "name" : "Pixel 4a",
+        "encoding": {
+          "@type": "MediaObject",
+          "contentUrl": "https://example.com/assets/P4A_v1.glb",
+          "encodingFormat": "model/gltf-binary"
+        }
+      }
+    }
+  }
+</script>
     <style>
     body {
     color: white;
